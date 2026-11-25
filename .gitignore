@@ -1,0 +1,71 @@
+# ==============================================================================
+# Faceless Shorts Pipeline - Git Ignore
+# ==============================================================================
+
+# Generated Projects & Media Renders
+data/
+renders/
+review/
+*.mp4
+*.wav
+*.mp3
+*.aac
+*.jpg
+*.jpeg
+*.png
+!styles/**/*.png
+!styles/**/*.jpg
+!styles/**/*.jpeg
+
+# Captions & Scripts
+*.srt
+*.vtt
+*_script.txt
+test_*.txt
+
+# Temporary Files & Headless Chrome Caches
+.tmp/
+*.tmp
+fs-chrome-*
+hf-cache/
+torch-cache/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
